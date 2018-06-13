@@ -1,0 +1,31 @@
+@import "~@/style/const.scss";
+
+.it-quality {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &_no-assessment {
+    opacity: 0.3;
+  }
+
+  &-mark {
+    margin-right: 5px;
+    width: 20px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: $grey;
+
+    &_excellent {
+      background-color: $green;
+    }
+
+    &_satisfactorily {
+      background-color: $yellow;
+    }
+
+    &_badly {
+      background-color: $red;
+    }
+  }
+}

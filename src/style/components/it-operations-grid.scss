@@ -1,0 +1,9 @@
+@import "~@/style/const.scss";
+
+.it-operations-grid {
+  font-size: $font-size-grid;
+
+  &__type {
+    font-size: $font-size-body;
+  }
+}

@@ -1,0 +1,55 @@
+@import "~@/style/const.scss";
+.it-grid {
+  display: flex;
+  flex-direction: column;
+
+  &-filters {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+  &-filter-item {
+    margin-right: 18px;
+
+    &_active {
+      color: $blue;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &-data {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  &-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-basis: auto;
+    justify-content: space-between;
+
+    &_header {
+      background-color: $white-grey;
+      padding: 10px;
+    }
+  }
+
+  &-column {
+    padding: 10px;
+    border-bottom: 1px solid $white-grey;
+
+    &_header {
+      background-color: $white-grey;
+    }
+  }
+}

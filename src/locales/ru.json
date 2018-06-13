@@ -1,0 +1,14 @@
+{
+  "PLOWING": "Вспашка",
+  "BOWLING": "Боронование",
+  "FERTILIZATION": "Внесение удобрений",
+  "WATERING": "Полив",
+  "RIGGING": "Прикатывание",
+  "HARVESTING": "Сбор урожая",
+  "EXCELLENT": "Отлично",
+  "SATISFACTORILY": "Удовлетворительно",
+  "BADLY": "Плохо",
+  "NO_ASSESSMENT": "Нет оценки",
+  "PLANNED_OPERATIONS": "Запланированные операции",
+  "DONE_OPERATIONS": "Выполненные операции"
+}
